@@ -1,0 +1,17 @@
+package com.company;
+
+import java.util.Scanner;
+
+public class Main {
+    public static void main(String[] args) {
+        // -- Area of Ellipse
+        Scanner scanner = new Scanner(System.in);
+        System.out.println("Enter the value of A Axis");
+        double a = scanner.nextInt();
+        System.out.println("Enter the value of B Axis");
+        double b = scanner.nextInt();
+        double area1 = Math.PI * a * b;
+        System.out.println("Area of Ellipse : "+area1);
+
+    }
+}
